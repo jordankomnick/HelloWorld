@@ -27,9 +27,9 @@ void HelloWorldApp::update()
 
 void HelloWorldApp::draw()
 {
-	int r = 0;
-	int g = 0;
-	int b = 0;
+	float r = 255;
+	float g = 0;
+	float b = 0;
 	// clear out the window with black
 	gl::clear( Color( r, g, b ) ); 
 }
